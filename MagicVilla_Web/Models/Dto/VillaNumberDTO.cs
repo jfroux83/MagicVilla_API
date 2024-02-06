@@ -1,8 +1,8 @@
 ﻿using System.ComponentModel.DataAnnotations;
 
-namespace MagicVilla_VillaAPI.Models.Dto
+namespace MagicVilla_Web.Models.Dto
 {
-    public class VillaNumberUpdateDTO
+    public class VillaNumberDTO
     {
         [Required]
         public int VillaNo { get; set; }
